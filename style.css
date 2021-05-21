@@ -1,0 +1,230 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #65CCB8;
+}
+
+.directory {
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  font-family: Garamond, "Times New Roman", serif;
+  text-align: right;
+}
+
+.directory h3 {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.introduction {
+  background-color: #57BA98;
+  background-clip: border-box;
+  background-size: cover;
+  height: auto; 
+  width: auto;
+  position: relative;
+  font-family: Garamond, "Times New Roman", serif;
+}
+
+.name {
+  padding: 6rem 7rem 5rem 7rem;
+  height: 25rem;
+}
+
+.name h3 {
+  padding-top: 5rem;
+  text-align:left;
+  color: #F2F2F2;
+}
+
+.name h1 {
+  font-size: 8rem;
+  font-family: Garamond, "Times New Roman", serif;
+  color: #F2F2F2
+}
+
+.about_me {
+  margin-top: 3rem;
+  border: 0;
+}
+
+.about_me h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: Garamond, "Times New Roman", serif;
+  color: white;
+}
+
+
+
+.about_me img {
+  float: right;
+  height: 90%;
+  width: auto;
+  margin-right: 2rem;
+}
+
+.about_me_description {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  display: static;
+  font-family: Garamond, "Times New Roman", serif;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+
+/* Projects Page */
+
+.project_info {
+  width: 100%;
+}
+
+.project_1 {
+  margin-top: 4rem;
+  font-size: 1.75em;
+  margin-left: 1rem;
+  display: static;
+  font-family: Garamond, "Times New Roman", serif;
+  color: white;
+  margin-bottom: 7rem;
+}
+
+/*.project_2 {
+  display: inline-block;
+  width: 47%;
+  height: auto;
+  text-align: left;
+  padding: 1rem;
+} */
+
+.project_1_description {
+  width: 47%;
+  display: static;
+  color: white;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.project_1_description p {
+  font-size: 0.66em;
+}
+
+
+.project_2_description {
+}
+
+.project_1 img {
+  padding-top: 1rem;
+  float: right;
+  height: 50%;
+  width: 50%;
+  margin-right: 2rem;
+}
+
+.project_2 img {
+  
+}
+.repl {
+  height: 25%;
+  width: 50%;
+  float: right;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+
+/* Containers */
+
+.container .box {
+  justify-content: center;
+  width: 21rem;
+  padding: 2.5rem;
+  position:relative; 
+}
+
+.container {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.container .box {
+  position: relative;
+  width: 21rem;
+  padding: 100px 40px 60px;
+  background: #57BA98;
+  box-shadow: 0 15px 45px rgba(0,0,0.1);
+}
+.container .box:before {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ transform: scaleY(0);
+ transform-origin: top;
+ transition: transform 0.5s;
+ background: #3B945E;
+}
+
+.container .box:hover:before {
+ transform: scaleY(1);
+ transform-origin: bottom;
+ transition: transform 0.5s;
+}
+
+.container .box h2 {
+  position: absolute;
+  left: 40px;
+  top: 60px;
+  font-size: 4em;
+  font-weight: 800;
+  z-index:1;
+  opacity: 0.5;
+  transition: 0.5s;
+  color: transparent;
+
+}
+
+.container .box:hover h2 {
+  opacity: 1;
+  color: #fff;
+  transform: translateY(-7rem);
+}
+
+.container .box h3 {
+  position: relative;
+  font-size: 1.5em;
+  z-index: 2;
+  color: #333;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.container .box:hover h3 {
+  color: #fff;
+}
+
+.container .box p {
+  position: relative;
+  z-index: 2;
+  color: #555;
+  transition: 0.5s;
+}
+
+.container .box:hover p {
+  color: #fff;
+}
+
+.container a {
+  color: #333 ;
+}
+
+.container .box:hover a {
+  color: white;
+}
