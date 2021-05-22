@@ -289,6 +289,9 @@ body {
   margin: 5px
 }
 
+/* Text Animation */
+
+
 /* Media Queries */
 @media (min-width: 0px) and (max-width: 575px) {
   html {
