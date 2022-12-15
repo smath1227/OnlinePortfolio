@@ -161,6 +161,20 @@ body {
   height:400px;
 } 
 
+.project_4 img {
+  margin-top: 2rem;
+  height: auto;
+  width: 40%;
+  float: right;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  clear: right;
+}
+
+.project_4_description {
+  padding-left: 2rem;
+}
+
 
 
 .repl {
