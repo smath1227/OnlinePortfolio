@@ -7,7 +7,6 @@ html {
 body {
   background-color: #006666;
 }
-
 .directory {
   margin-right: 2rem;
   font-size: 1.5rem;
@@ -36,6 +35,7 @@ body {
 .introduction {
   background-color: #9dbcbc;
   background-clip: border-box;
+  box-shadow: 0 15px 45px rgba(0,0,0.1);
   background-size: cover; 
   width: 100vw;
   position: relative;
@@ -109,11 +109,13 @@ body {
 .project_1 {
   margin-top: 4rem;
   font-size: 1.75em;
-  margin-left: 1rem;
+  margin-left: 0.25rem;
   display: static;
   font-family: Garamond, "Times New Roman", serif;
   color: #EBEBEB;
-  margin-bottom: 7rem;
+  background-color: #9dbcbc;
+  box-shadow: 0 15px 45px rgba(0,0,0.1);
+  /*margin-bottom: 7rem; */
 }
 
 
@@ -130,6 +132,15 @@ body {
 }
 
 .project_2 {
+  margin-top: 4rem;
+  font-size: 1.75em;
+  margin-left: 0.25rem;
+  display: static;
+  font-family: Garamond, "Times New Roman", serif;
+  color: #EBEBEB;
+  background-color: #0b7d7d;
+  box-shadow: 0 15px 45px rgba(0,0,0.1);
+  /*margin-bottom: 7rem; */
 }
 
 .project_2_description {
@@ -137,17 +148,114 @@ body {
   display: static;
   color: #EBEBEB;
   font-size: 2rem;
-  padding: 1rem;
-  padding-right: 1.5rem;
+  padding:0.8rem;
 }
 
 .project_2_description p {
   font-size: 0.66em;
 }
 
+.project_3 {
+  margin-top: 4rem;
+  font-size: 1.75em;
+  margin-left: 0.25rem;
+  display: static;
+  font-family: Garamond, "Times New Roman", serif;
+  color: #EBEBEB;
+  background-color: #9dbcbc;
+  box-shadow: 0 15px 45px rgba(0,0,0.1);
+  /*margin-bottom: 7rem; */
+}
+
+.project_3_description {
+  width: 47%;
+  display: static;
+  color: #EBEBEB;
+  font-size: 2rem;
+  padding:0.8rem;
+}
+
+.project_3_description p {
+  font-size: 0.66em;
+}
+
+.project_4 {
+  margin-top: 4rem;
+  font-size: 1.75em;
+  margin-left: 0.25rem;
+  display: static;
+  font-family: Garamond, "Times New Roman", serif;
+  color: #EBEBEB;
+  background-color: #006666;
+  box-shadow: 0 15px 45px rgba(0,0,0.1);
+  /*margin-bottom: 7rem; */
+}
+
+.project_4_description {
+  width: 47%;
+  display: static;
+  color: #EBEBEB;
+  font-size: 2rem;
+  padding:0.8rem;
+}
+
+.project_4_description p {
+  font-size: 0.66em;
+}
+
+.project_5 {
+  margin-top: 4rem;
+  font-size: 1.75em;
+  margin-left: 0.25rem;
+  display: static;
+  font-family: Garamond, "Times New Roman", serif;
+  color: #EBEBEB;
+  background-color: #9dbcbc;
+  box-shadow: 0 15px 45px rgba(0,0,0.1);
+  /*margin-bottom: 7rem; */
+}
+
+.project_5_description {
+  width: 47%;
+  display: static;
+  color: #EBEBEB;
+  font-size: 2rem;
+  padding:0.8rem;
+}
+
+.project_5_description p {
+  font-size: 0.66em;
+}
+
+.project_6 {
+  margin-top: 4rem;
+  font-size: 1.75em;
+  margin-left: 0.25rem;
+  display: static;
+  font-family: Garamond, "Times New Roman", serif;
+  color: #EBEBEB;
+  background-color: #006666;
+  box-shadow: 0 15px 45px rgba(0,0,0.1);
+  /*margin-bottom: 7rem; */
+}
+
+.project_6_description {
+  width: 47%;
+  display: static;
+  color: #EBEBEB;
+  font-size: 2rem;
+  padding:0.8rem;
+}
+
+.project_6_description p {
+  font-size: 0.66em;
+}
+
+
 .project_1 img {
-  margin-top: 2rem;
-  height: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  height: 40%;
   width: 40%;
   float: right;
   padding-right: 1.5rem;
@@ -156,10 +264,27 @@ body {
 }
 
 .project_2 img {
-  padding-right:1.5rem;
-  width: 600px;
-  height:400px;
+  margin-top: 1.5rem;
+  height: auto;
+  width: 40%;
+  float: right;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  clear: right;
 } 
+
+
+
+.project_3 img {
+  margin-top: 2rem;
+  height: auto;
+  width: 40%;
+  float: right;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  clear: right;
+}
 
 .project_4 img {
   margin-top: 2rem;
@@ -171,18 +296,32 @@ body {
   clear: right;
 }
 
-.project_4_description {
-  padding-left: 2rem;
+.project_5 img {
+  margin-top: 2rem;
+  height: auto;
+  width: 40%;
+  float: right;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  clear: right;
 }
 
-
+.project_6 img {
+  margin-top: 2rem;
+  height: auto;
+  width: 40%;
+  float: right;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  clear: right;
+}
 
 .repl {
   height: auto;
   width: 40%;
   float: right;
   clear: right;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
@@ -224,6 +363,7 @@ body {
 }
 
 .contact {
+  padding-top: 1rem;
   color: #EBEBEB;
   padding-bottom: 100px;
 }
